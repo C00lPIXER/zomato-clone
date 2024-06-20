@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    width: 100%;
+    font-family: Okra, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+}
+.container{
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.header {
+    position: relative;
+}
+.img-container{
+    opacity: relative;
+    width: 100%;
+    height: 443px;
+    overflow: hidden;
+    
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    color: white;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.nav{
+    font-weight: 550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    
+    display: flex;
+    align-items: center;
+    margin-right: 135px;
+}
+.logo-container p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}.nav ul li{
+    padding: 0px 3px;
+    padding-top: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.nav ul li a{
+    color:inherit;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 280px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 443px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: -50px;
+    
+}
+.header-body-section-discover{
+    font-size: 36px;
+    margin: 30px 0px;
+    font-weight: 100;
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 54px;
+    max-width: 781px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.fa-location-dot{
+    color: #f06a6a;
+    font-size: 18px;
+    padding: 6px;
+}
+.fa-caret-down{
+    color: gray;
+    padding: 6px;
+}
+.location-detection input{
+    border: none;
+    font-size: 15px;
+    
+}
+.fa-magnifying-glass{
+    color: gray;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+.search-container-header-body-two input{
+    max-width: 100%;
+    width: 400px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+/*** sectiom 1 feature ***/
+.section-1{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.01px solid rgb(220, 217, 217);
+}
+.feature-img{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 155px;
+    overflow: hidden;
+}
+.feature-img img{
+   width: 100%;
+   object-fit: cover;
+}
+.feature h3,
+.feature p{
+    padding-left: 20px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.feature:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+section{
+    padding: 18px 0px;
+}
+/*** sectiom 2 feature ***/
+.section-2-left h1{
+    font-size: 35px;
+    margin-bottom: 3px;
+    font-weight: lighter;
+}
+.section-2-left p{
+    margin-top: 4px;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.section-2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-right{
+    align-self: flex-end;
+    color: rgb(245, 103, 103);
+    padding-bottom: 15px;
+}
+.section-2-body{
+    display: flex;
+}
+.section-2-items{
+    max-width: 267.5px;
+    height: 320px;
+    margin: 6px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.section-2-items:first-child{
+    margin-left: 0%;
+}
+.section-2-items img{
+    width: 100%;
+    height: 100%;
+    box-shadow: inset -50px -50px -50px rgba(0,0,0,0.2);
+}
+.section-2-image-discribtion{
+    padding: 0px 10px;
+    position: absolute;
+    z-index: 2px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.1);
+    width: 100%;
+}
+.section-2-image-discribtion p{
+    margin: 0%;
+    font-size: 18px;
+    color: white;
+    padding: 3px;
+}
+.section-2-image-discribtion p:nth-child(2){
+    font-size: 14px;
+    color: white;
+    padding-bottom: 7px;
+}
+/*** section 3 ***/
+.section-3{
+    margin-top: 40px;
+    color: rgb(67, 63, 63);  
+    margin-bottom: 100px;
+    margin-right: 0%;
+}
+.section-3 h1{
+    font-weight: 200;
+    font-size: 35px;
+}
+.section-3 h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.section-3 p{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.section-3-localities{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.section-3-localities-card{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 356.66px;
+    max-height: 78.6px;
+    min-width: 356.66px;
+    padding: 15px 20px;
+    border: 1.5px solid rgb(227, 213, 213);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 8px;
+    box-shadow: 0.3px 0.3px 0px rgba(0,0,0,0.2);
+}
+.section-3-boxs-last{
+    align-self: center;
+    margin-left: 100px;
+    margin-bottom: 7px;
+}
+/*** section 4 ***/
+.section-4{
+    background-color: rgb(254, 250, 245);
+    width: 100%;
+    height: 480px;
+    
+}
+.section-4-body{
+    display: flex;
+    margin-left: 380px;
+    align-items: center;
+    margin-top: 30px;
+}
+.zomato-body-img{
+    margin-right: 40px;
+}
+.zomato-body-img img{
+    max-width: 250px;
+    margin-right: 100%;
+}
+.zomato-body-detilas h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+.zomato-body-detilas p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(138, 129, 129);
+}
+.zomato-input{
+    display: flex;
+    height: 48px;
+    margin-bottom: 30px;
+}
+.zomato-input button{
+    width: 150px;
+    background-color: rgb(239, 79, 95);
+    border-radius: 7px;
+    border: 0cm;
+    color: white;
+}
+.zomato-body-radio{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.zomato-input-email input{
+    font-size: 16px;
+    height: 100%;
+    width: 292px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+.zomato-body-detilas img{
+    margin-right: 16px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+/*** section 5 ***/
+.section-5{
+    margin-left: 210px;
+    margin-bottom: 100px;
+}
+.section-5 h1{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(49, 43, 43);
+}
+.section-5_collams_headings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(240, 239, 239);
+    border-radius: 7px;
+    padding: 0px 20px;
+    width: 1098.4px;
+    height: 67.6px;
+    margin: 20px 0px;
+    cursor: pointer;
+    
+}
+.section-5_collams_headings h2{
+    font-size: 19px;
+    font-weight: lighter;
+    color: rgb(92, 92, 92);
+}
+/*** footer ***/
+.footer{
+    
+}
+.flag-img{
+    width: 30px;
+}
+.flag-img img{
+    width: 100%;
+    padding-top: 2px;
+}
+.footer-language-country{
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgb(192, 185, 185);
+    width: 122.71px;
+    height: 37.67px;
+    align-items: center;
+    border-radius: 7px;
+}
+.footer-language-country:first-child{
+    margin-right: 25.61px;
+    width: 109.36px;
+    height: 37.67px;
+}
+.footer-language-country select{
+    width: 90px;
+    padding-left: 5px;
+    border: none;
+    font-size: 17px;
+    color: rgb(70, 70, 70);
+    font-weight: lighter;
+}
+.footer-selction{
+    display: flex;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 132px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.footer-menu h3{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.footer-menu ul{
+    padding: 0%;
+    list-style: none;
+}
+.footer-menu a{
+    color: rgb(159, 159, 159);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.9;
+}
+.social-media-links{
+    margin-bottom: 18px;
+    font-size: 25px;
+}
+.download-app-img img{
+    width: 137px;
+    display: block;
+    margin-bottom: 14px;
+}
+.end{
+    font-size: 13px;
+    color: #7e7c7c;
+    font-weight: lighter;
+}
